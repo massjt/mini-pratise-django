@@ -1,0 +1,19 @@
+<!doctype html>
+{% load static %}
+<html>
+<head>
+<meta charset="utf-8">
+<title>{% block title %}{% endblock %}</title>
+<link rel="stylesheet" type="text/css" href="{% static 'css/public.css' %}">
+</head>
+
+<body>
+<div class="header">online mini shop</div>
+<hr width="100%" />
+{% block body %}
+{% endblock %}
+<div class="footer">
+  <hr  width="100%" />
+  Copyright © x. All Rights Reserved </div>
+</body>
+</html>

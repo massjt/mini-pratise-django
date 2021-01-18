@@ -1,0 +1,2 @@
+# mini-pratise-django
+
